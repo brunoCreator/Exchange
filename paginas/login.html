@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
 
         <a class="navbar-brand" href="#">
-            <img src="../img/logo.png" alt="logo" style="width:40px;">
+            <img src="/img/logo.png" alt="logo" style="width:40px;">
             <span>Exchange</span>
         </a>
 
@@ -29,39 +29,53 @@
         <div class="collapse navbar-collapse" id="navb">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../paginas/venda.html">Venda</a>
+                    <a class="nav-link" href="javascript:void(0)">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../paginas/pedido.html">Pedido</a>
+                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="javascript:void(0)">Disabled</a>
                 </li>
             </ul>
 
 
             <ul class="navbar-nav my-2 my-sm-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Acessar</a>
+                    <a class="nav-link" href="#">Log in</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastro</a>
+                    <a class="nav-link" href="#">Sign up</a>
                 </li>
             </ul>
         </div>
     </nav>
     
-    <div class="container-fluid" id="home">
+    <div class="container">
         <div class="row">
-           <div class="col-sm-6 text">
-                <div class="">
-                    <h1>Exchange</h1>
-                <h4>Anuncie produtos, crie pedidos.</h4>
+            <div class="col-sm-12">
+                <h1>Login</h1>
+                <form>
+                   
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class='far fa-user'></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nome">
+                    </div>                    
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class='far fa-user'></i></span>
+                        </div>
+                        <input type="password" class="form-control" id="pwd" placeholder="Senha">
+                    </div>
+                    
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    
+                </form>
                 
-                <button type="button" class="btn btn-light" href="../paginas/venda.html">Venda</button>
-                <button type="button" class="btn btn-light" href="../paginas/pedido.html">Pedido</button>
-                </div>
-            </div>
-
-            <div class="col-sm-6">  
-                <img src="../img/home.png" alt="">                
             </div>
 
         </div>

@@ -4,3 +4,22 @@
     font-family: 'Rubik', sans-serif;
     color:rgb(17 66 97);
 }
+
+#home {
+    color: white;
+
+}
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to right, #2b2972 , #211c58);
+}
+
+#home img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+  align-items: center;
+}
