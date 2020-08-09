@@ -12,14 +12,16 @@
 
 html, body {
     height: 100%;
-    background-image: linear-gradient(to right, #2b2972 , #211c58);
+    background-image: linear-gradient(to right, #36339c , #211c58);
 }
 
 #home img {
     width: 100%;
+
 }
 
 .text {
+    text-align: center;
     display: flex;
     align-items: center;
 }
