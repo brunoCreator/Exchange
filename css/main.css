@@ -21,5 +21,20 @@ html, body {
 
 .text {
     display: flex;
-  align-items: center;
+    align-items: center;
+}
+
+.big-box {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.cadastro {
+    
+}
+
+.cadatro {
+    margin-top: -70px;
+    height: 100%;
 }
