@@ -5,14 +5,14 @@
     color:rgb(17 66 97);
 }
 
-#home {
+#home{
+    background-image: linear-gradient(to right, #36339c , #211c58);
     color: white;
-
 }
 
 html, body {
     height: 100%;
-    background-image: linear-gradient(to right, #36339c , #211c58);
+    background:#f9f9f9;
 }
 
 #home img {
@@ -39,4 +39,25 @@ html, body {
 .cadatro {
     margin-top: -70px;
     height: 100%;
+}
+
+
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+    color:black;
+    background: white;
+}
+
+.d-none {
+    background: white!important;
+      height: 90vh;
+}
+
+.navbar {
+    background: white;
 }

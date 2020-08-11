@@ -72,67 +72,52 @@
             </ul>
         </div>
     </nav>
-
-
-       <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div><div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div><div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div><div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div><div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Pergunta</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Preco: 99</h6>
-                        <p class="card-text">Comentario</p>
-                    </div>
-                </div>
-            </div>
-            
+    
+   
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          Criar um novo pedido
         </div>
+          <div class="card-body">
 
-
+      <form action="../back/request.php" method="post">
+<div class="form-row">
+  <div class="form-group col-md-8">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class='far fa-user'></i></span>
+        </div>
+        <input type="text" class="form-control" name="title" placeholder="Titulo">
+  </div></div>
+  <div class="form-group col-md-4">
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text"><i class='far fa-user'></i></span>
     </div>
+    <input type="number" class="form-control" name="price" placeholder="Preço">
+    </div></div>
+</div>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text"><i class='far fa-user'></i></span>
+    </div>
+    <textarea class="form-control" name="description" placeholder="Descrição" rows="2"></textarea>
+</div>
+
+<div class="form-group">
+    <textarea class="form-control" name="content" placeholder="Conteudo" rows="8"></textarea>
+  </div>
+
+<button type="submit" class="btn btn-primary">Criar</button>
+</form>
+
+    </div></div></div>
 <footer>
        <p></p>
         <p><a href="../index.html">Landing page</a> - <a href="cadastro.html">Cadastro</a> - <a href="acesso.html">login</a></p>
     </footer>
 </body></html>
+
+  
